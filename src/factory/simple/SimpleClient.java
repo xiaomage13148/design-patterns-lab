@@ -1,6 +1,9 @@
 package factory.simple;
 
-public class Client {
+import factory.Product;
+import factory.ProductEnum;
+
+public class SimpleClient {
     public static void main(String[] args) {
         SimpleFactory factory = new SimpleFactory();
         Product product = factory.createProduct(ProductEnum.AIRCRAFT);

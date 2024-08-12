@@ -1,4 +1,4 @@
-package factory.simple;
+package factory;
 
 public class CalculatorProduct implements Product {
 

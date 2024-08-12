@@ -1,5 +1,10 @@
 package factory.simple;
 
+import factory.AircraftProduct;
+import factory.CalculatorProduct;
+import factory.Product;
+import factory.ProductEnum;
+
 public class SimpleFactory {
     public Product createProduct(ProductEnum type) {
         Product product = null;

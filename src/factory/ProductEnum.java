@@ -1,4 +1,4 @@
-package factory.simple;
+package factory;
 
 public enum ProductEnum {
     CALCULATOR, AIRCRAFT;
